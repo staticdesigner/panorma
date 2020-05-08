@@ -1,0 +1,46 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#000; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 400; text-align:left; border-radius: 3px; border: rgba(0,0,0,0.66) solid 1px; box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.66);background: rgba(255,255,255,0.75);"
+    },
+"include": [
+        {
+            "src": "New Panorama2_controls.json"
+        }
+    ],
+"node": {
+	"audio": {
+	        "autoplay": true,
+	        "id": "lAudio",
+	        "loop": true,
+	        "src": "st8.mp3"
+	    },
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 180.00000000000006,
+	        "maxtilt": 8.29669691900791,
+	        "minpan": 0,
+	        "mintilt": -8.29669691900791
+	    },
+	"id": "New Panorama2",
+	"image":{"baseindex":1,"bitmap":[{"height":850,"src":"New Panorama2_tiles/New Panorama2_t_1_%0y_%0x.jpg","tilesize":480,"width":9156},{"height":425,"src":"New Panorama2_tiles/New Panorama2_t_2_%0y_%0x.jpg","tilesize":480,"width":4578}],"multilevel":true,"preview":{"src":"New Panorama2_tiles/New Panorama2_preview.jpg"},"projection":"planar"},
+	"view": {
+	        "mode": "fitInWindow",
+                "zoom": 0.48
+	    }
+},
+"version": "4.1"
+}
+}

@@ -1,0 +1,46 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#000; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 400; text-align:left; border-radius: 3px; border: rgba(0,0,0,0.66) solid 1px; box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.66);background: rgba(255,255,255,0.75);"
+    },
+"include": [
+        {
+            "src": "New Panorama5_controls.json"
+        }
+    ],
+"node": {
+	"audio": {
+	        "autoplay": true,
+	        "id": "lAudio",
+	        "loop": true,
+	        "src": "st3.mp3"
+	    },
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 180,
+	        "maxtilt": 9.861106325884196,
+	        "minpan": 0,
+	        "mintilt": -9.861106325884196
+	    },
+	"id": "New Panorama5",
+	"image":{"baseindex":1,"bitmap":[{"height":850,"src":"New Panorama5_tiles/New Panorama5_t_1_%0y_%0x.jpg","tilesize":480,"width":7681},{"height":425,"src":"New Panorama5_tiles/New Panorama5_t_2_%0y_%0x.jpg","tilesize":480,"width":3841}],"multilevel":true,"preview":{"src":"New Panorama5_tiles/New Panorama5_preview.jpg"},"projection":"planar"},
+	"view": {
+	        "mode": "fitInWindow",
+                "zoom": 0.46
+	    }
+},
+"version": "4.1"
+}
+}
